@@ -429,13 +429,13 @@ section {
 /*--------------------------------------------------------------
 # Akills
 --------------------------------------------------------------*/
-.skills .progress {
+.skills .progress, .interests .progress {
   height: 60px;
   display: block;
   background: none;
   border-radius: 0;
 }
-.skills .progress .skill {
+.skills .progress .skill, .interests .progress .interests {
   padding: 10px 0;
   margin: 0;
   text-transform: uppercase;
@@ -444,14 +444,14 @@ section {
   font-family: "Poppins", sans-serif;
   color: #45505b;
 }
-.skills .progress .skill .val {
+.skills .progress .skill .val, .interests .progress .interests .val {
   float: right;
   font-style: normal;
 }
-.skills .progress-bar-wrap {
+.skills .progress-bar-wrap, .interests .progress-bar-wrap {
   background: #f2f3f5;
 }
-.skills .progress-bar {
+.skills .progress-bar, .interests .progress-bar {
   width: 1px;
   height: 10px;
   transition: 0.9s;
